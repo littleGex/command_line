@@ -75,5 +75,5 @@ if __name__ == "__main__":
     # elif len(sys.argv) != 6:
     #     print('number of inputs not correct, please check')
     
-    # python burndown_test.py burn 20200505 20200630 40 15 - As an example. Graph wil lnot be correct if today() falls outside this time box
+    # python burndown_test.py burn 20200505 20200630 40 15 - As an example. Graph will not be correct if today() falls outside this time box
     burn(date1=sys.argv[2],date2=sys.argv[3], est=sys.argv[4], toDo=sys.argv[5]) # python burndown_test.py burn <date1> <date2> <est> <todo> 
